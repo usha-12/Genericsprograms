@@ -1,7 +1,6 @@
 package usha.generic;
 
-public class ClassLevel {
-
+public class MethodLevel {
     public static<E> void printArray(E[] array){//static method
         for (E x :array){
             System.out.println(x);
@@ -27,7 +26,7 @@ public class ClassLevel {
             printArray(arrayFloat);
             System.out.println("----------------------------------");
             printArray(arrayString);
-            ClassLevel obj = new ClassLevel();
+            MethodLevel obj = new MethodLevel();
             System.out.println("++++++++++++++++++++++++++++++++++++++++++++");
             obj.printArray1(arrayInt);
             System.out.println("+++++++++++++++++++++++++++++++++++++++++++++");
